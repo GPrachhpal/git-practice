@@ -63,3 +63,4 @@ git merge --ff-only feature1
 
 1. ✅ Do rebasing on your **personal feature branches**.
 2. 🚫 Don’t do it on **shared branches** like `main`, `dev`, `stage`, or `qa` as it **rewrites history**.
+3. Never run rebase command on main branch. Rebase meant for branches not for root branch.
